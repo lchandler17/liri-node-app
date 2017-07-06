@@ -10,7 +10,6 @@
 	const SpotifyWebApi = require('spotify-web-api-node');
 	var spotifyApi = new SpotifyWebApi();
 	// var spotifyKey = require('./keys.js');
-	// var spotify = require('spotify');
 	spotifyApi.setAccessToken('spotifyKey');
 
 	var fs = require('fs');
